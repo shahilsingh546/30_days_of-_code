@@ -7,9 +7,7 @@ public:
 
         while(i<n && j<nums.size())
         {
-            ans.push_back(nums[i]);
-            ans.push_back(nums[j]);
-            i++;
+            ans.push_back(nums[i]);C            i++;
             j++;
         }
         return ans;
